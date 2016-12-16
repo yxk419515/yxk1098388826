@@ -1,0 +1,1912 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="zh-CN" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="zh-CN" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="zh-CN"> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+
+  <meta name="Keywords" content="定制旅游,婚拍游，亲子游,出境游,海岛度假,出国旅游" />
+  <meta name="Description" content="大白车队旅行专注于家庭主题定制旅游,基于深度调研家庭旅行出行需求，打造满足不同家庭关系，组合的主题旅行及其他产品,如地铁游，婚拍，商务翻译等。致力于提供一站式，高性价比，高契合度的高端旅游体验。让每一位顾客，都拥有属于自己专属的身心之旅。" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
+  <title>大白车队旅行_定制旅游|亲子游|婚拍游|地铁游|出境游</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="http://www.imyway.cn:80/assets/img/favicon.png">
+  <!-- Bootstrap -->
+  <link href="http://www.imyway.cn:80/assets/plugins/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="http://www.imyway.cn:80/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://www.imyway.cn:80/assets/plugins/tooltipster/tooltipster.css" rel="stylesheet" type="text/css">
+
+  <!-- custom -->
+  <link href="http://www.imyway.cn:80/assets/css/custom_new.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+  .foot_tooltip {
+    color: #fff;
+    margin-right: 0;
+    cursor: pointer;
+  }
+  </style>
+
+  <!-- page level -->
+  <link href="http://www.imyway.cn:80/assets/plugins/videoJs/video-js.min.css" rel="stylesheet">
+  <link href="http://www.imyway.cn:80/assets/plugins/scrollBar/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+  <link href="http://www.imyway.cn:80/assets/css/home_new.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+  .navbar-custom1 {
+    padding: 0;
+    position: relative;
+  }
+
+  #header_logo {
+    width: 112px;
+    height: 110px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-right: 1px solid #e5e5e5;
+    z-index: 10000;
+  }
+
+  .slidesjs-container {
+    max-height: 824px;
+  }
+
+  .carousel-inner > .item {
+    height: 100%;
+  }
+
+  .navbar-nav-custom .nav-custom {
+    margin-left: 112px;
+  }
+
+  .sub-navbar1 {
+    z-index: 999;
+  }
+
+  .sub-navbar1 .row .tags-nav {
+    padding-left: 112px;
+  }
+
+  .searchicon-new {
+    width: 53px;
+    height: 20px;
+    background: url(./assets/img/search_icon_new.png) no-repeat;
+    display: block;
+    float: right;
+    margin-left: 5px;
+    position: absolute;
+    top: 15px;
+    right: -350px;
+  }
+
+  .banner-foot { 
+    position: absolute;
+    height: 103px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.53);
+    z-index: 1;
+    bottom: 0px;
+  }
+
+  .item-title {
+    text-align: center;
+    padding-top: 41px;
+    margin-bottom: 26px;
+  }
+
+  .item-title h1 {
+    font-size: 32px;
+    color: #6d6d6d;
+    margin-bottom: 0
+  }
+
+  .item-title h2 {
+    color: #999999;
+    font-size: 26px;
+    margin-top: 26px
+  }
+
+  .carousel-inner img {
+    min-width: 1080px;
+  }
+
+  .slidesjs-pagination-item > a {
+    opacity: 0.6;
+  }
+
+  .slidesjs-pagination-item .active {
+    opacity: 1.0;
+  }
+
+  .new_blog {
+    width: 1180px;
+    margin: 25px auto;
+  }
+
+  .new_blog .header {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #696969;
+    font-weight: bold;
+  }
+
+  .new_blog .body > a {
+    display: inline-block;
+    width: 49%;
+    margin: 3px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #737373;
+  }
+
+  .new_blog .body > a:hover {
+    color: #2d93f8;
+  }
+
+  .banner-inner {
+    position: absolute;
+    width: 100%;
+  }
+
+  .banner-inner .desc {
+    width: 1000px;
+    margin: 0 auto;
+
+  }
+
+  .banner-inner .desc > div > div {
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .banner-inner .desc .button {
+    width: 367px;
+  }
+
+  .banner-inner .desc .button > a {
+    width: 166px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.59);
+    text-align: center;
+    font-size: 16px;
+    color: #12477e;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .banner-inner .desc .button > a:hover {
+    background: #fff;
+  }
+
+  .third-menu{
+    background-color: rgba(75, 75, 75, 0.88);
+    height: 301px;
+  }
+  </style>
+
+  <!--[if lt IE 9]>
+  <script src="http://www.imyway.cn:80/assets/js/html5shiv.js"></script>
+  <script src="http://www.imyway.cn:80/assets/js/respond.js"></script>
+  <script src="http://www.imyway.cn:80/assets/plugins/placeholder-IE-fixes.js"></script>
+  <![endif]-->
+
+  <!-- global -->
+  <script type="text/javascript" src="http://www.imyway.cn:80/assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.imyway.cn:80/assets/js/jquery-migrate.min.js"></script>
+  <script type="text/javascript" src="http://www.imyway.cn:80/assets/js/jqElemResize.js"></script>
+  <script type="text/javascript" src="http://www.imyway.cn:80/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- JS Implementing Plugins -->
+  <script type="text/javascript" src="http://www.imyway.cn:80/assets/js/jquery.mousewheel.min.js"></script>
+  <script type="text/javascript" src="http://www.imyway.cn:80/assets/js/back-to-top.js"></script>
+
+  <script type="text/javascript" src="http://www.imyway.cn:80/assets/plugins/tooltipster/jquery.tooltipster.min.js"></script>
+  <style type="text/css">
+  .navbar-custom {
+    padding: 0;
+    position: relative;
+  }
+
+  .web-link {
+    background-color: #3c3c3c;
+  }
+
+  .web-link .link-content {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0;
+  }
+
+  .web-link .link-content > li {
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  .navbar-nav-custom .nav-custom {
+    margin-left: 112px;
+  }
+
+  .sub-navbar .row .tags-nav {
+    padding-left: 112px;
+  }
+
+  .home-search-container {
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    z-index: 1;
+    width: 100%
+  }
+
+  .home-search {
+    background-color: transparent;
+    padding: 5px;
+    z-index: 1;
+    margin: auto;
+    margin-top: -6px;
+    position: relative;
+  }
+
+  .home-search-input {
+    display: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: -330px;
+    border-radius: 16px;
+    width: 50px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.53);
+    color: #a9a9a9;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 35px;
+    -webkit-box-shadow: 6px 6px 16px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 6px 16px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 6px 16px -5px rgba(0, 0, 0, 0.75);
+  }
+
+  .searchicon-new.active {
+    background: url(../assets/img/search_icon_new_hover.png) no-repeat;
+  }
+
+  .navbar-custom1 .nav-custom li {
+    float: left;
+    list-style: outside none none;
+    border-right: 1px solid #e5e5e5;
+  }
+
+  .navbar-custom .nav-custom li {
+    float: left;
+    list-style: outside none none;
+    border-right: 1px solid #e5e5e5;
+  }
+
+  .navbar-custom1 .nav-custom li a {
+    background-color: transparent;
+    color: #666;
+  }
+
+  .navbar-custom .nav-custom li a {
+    background-color: transparent;
+    color: #666;
+  }
+
+  .navbar-custom1 .nav-custom li a:hover {
+    color: #529CFF;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  .navbar-custom .nav-custom li a:hover {
+    color: #529CFF;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  .qr_code, .telephone {
+    top: 50%;
+    position: fixed;
+    right: 5px;
+    padding: 7px;
+    margin-top: 64px;
+    z-index: 9999999999;
+    background: rgb(89, 98, 115);
+  }
+
+  .telephone {
+    margin-top: 23px;
+    padding: 9px;
+  }
+
+  .qr_code_img {
+    height: 150px;
+    width: 150px;
+    top: -130px;
+    left: -180px;
+    display: none;
+    position: absolute;
+  }
+
+
+  .telephone_text {
+    position: absolute;
+    display: none;
+    left: -113px;
+    background: rgb(89, 98, 115);
+    color: #fff;
+    font-weight: bold;
+    padding: 0 9px;
+    top: 0px;
+    height: 39px;
+    line-height: 39px;
+  }
+
+  .qr_code:hover .qr_code_img, .telephone:hover .telephone_text {
+    display: block;
+  }
+
+  #MEIQIA-BTN {
+    padding-bottom: 0 !important;
+    border: none !important;
+  }
+
+  #MEIQIA-BTN-HOLDER:hover #MEIQIA-BTN-TEXT {
+    display: block !important;
+  }
+
+  #MEIQIA-BTN-TEXT {
+    display: none !important;
+    position: absolute !important;
+    left: -120px !important;
+    width: 100px !important;
+    top: -10px !important;
+    background-color: #596273 !important;
+    height: 41px !important;
+    line-height: 41px !important;
+    letter-spacing: 7px !important;
+  }
+
+  #MEIQIA-BTN-HOLDER {
+    display: block !important;
+    top: 50% !important;
+    height: 40px !important;
+    margin-top: -20px !important;
+    height: 40px !important;
+    right: 5px !important;
+  }
+
+  </style>
+</head>
+<body class="global">
+
+
+
+
+  <!--=== Header ===-->
+
+  <script type="text/javascript">
+
+  $(function () {
+    // set go to top
+    var mainobj = scrolltotop
+    var iebrws = document.all
+    mainobj.cssfixedsupport = !iebrws || iebrws && document.compatMode == "CSS1Compat" && window.XMLHttpRequest //not IE or IE7+ browsers in standards mode
+    mainobj.$body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body')
+    mainobj.$control = $('<div id="topcontrol">' +
+    '<img src="http://www.imyway.cn:80/assets/img/up.png" style="width:48px; height:48px" />'
+    + '</div>')
+    .css({
+      position: mainobj.cssfixedsupport ? 'fixed' : 'absolute',
+      bottom: mainobj.controlattrs.offsety,
+      right: '25px',
+      opacity: 0,
+      cursor: 'pointer'
+    })
+    .attr({title: '返回顶部'})
+    .click(function () {
+      //                        currentSectionIndex
+      mainobj.scrollup();
+      return false
+    })
+    .appendTo('body');
+    if (document.all && !window.XMLHttpRequest && mainobj.$control.text() != '') //loose check for IE6 and below, plus whether control contains any text
+    mainobj.$control.css({width: mainobj.$control.width()}); //IE6- seems to require an explicit width on a DIV containing text
+    mainobj.togglecontrol();
+    $('a[href="' + mainobj.anchorkeyword + '"]').click(function () {
+      mainobj.scrollup();
+      return false
+    })
+    $(window).bind('scroll resize', function (e) {
+      mainobj.togglecontrol()
+    })
+
+    //setFooter();
+  });
+
+  function setFooter() {
+    //set footer
+    var contentHeight = $(".content").height();
+    var wh = $(window).height();
+    if (wh - contentHeight > 0) {
+      var hscale = wh - 98;
+      $(".content").css("height", hscale + "px");
+    }
+  }
+  </script>
+  <div class="head">
+    <div class="nav">
+      <div class="nav-center">
+
+        <ul class="nav-ul">
+          <li class="sub-menu">
+            <a href="">个人专属旅行</a>
+          </li>
+          <!-- <li class="sub-menu">
+            <a href="">大白优选旅行</a>
+          </li> -->
+            <li class="sub-menu">
+              <a href="">旅行策划师&管家</a>
+            </li>
+            <li class="sub-menu">
+              <a href="">关于我们</a>
+            </li>
+
+            <li class="sub-menu">
+
+              <div class="home-search">
+
+                <script type="text/javascript">
+                function searchProduct(value) {
+                  value && $("#pname").val(value);
+                  $("#searchPtype").val($("#ptype").val());
+                  $("#searchForm").submit();
+                }
+                </script>
+              </div>
+
+            </li>
+          </div>
+        </div>
+      </div>
+      <!--=== End Header ===-->
+      <!-- target-data -->
+      <div id="target-data" class="abs"
+      style="width: 300px;border: 1px solid #e5e5e5;padding: 10px; border-radius:4px; display: none;z-index: 9999;background-color: #fff;"></div>
+      <!-- ===video -->
+      <section class="section">
+        <div id="banner" style="height: 100%;background: #a0a0a0;">
+          <div id="banner_video" class="carousel slide" style="position: relative;top: 0;">
+            <div class="banner-inner">
+              <div class="desc">
+                <div style="width: 400px;position: relative;z-index: 1;">
+                  <div style="font-size: 42px;text-shadow: 2px 2px 7px rgb(121, 121, 121);">最好的陪伴，是旅行</div>
+                  <div style="font-size: 22px;font-weight:normal;text-shadow: 2px 2px 7px rgb(121, 121, 121);">
+                    大白车队旅行 - 您的专属品牌
+                  </div>
+                  <div style="font-size: 42px;border-bottom: 15px solid #fff;width: 368px;margin-bottom: 20px;">
+                    GO TO TRAVEL
+                  </div>
+                  <div class="button" style="position: relative;">
+                    <a href="">专属婚拍旅行</a>
+                    <a href="" style="right: 0">大白优选旅行</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner" style="height: 100%;">
+              <div class="item active"><a href=""><img id="tmp_img" class="lazy-carousel"
+                alt=""
+                src="aaa/11.jpg"
+                style="width: 100%;"/></a></div>
+                <div class="item"><a href=""><img id="tmp_img" class="lazy-carousel"
+                  alt="欧美留尼汪亲子游"
+                  src="aaa/22.jpg"
+                  style="width: 100%;"/></a></div>
+
+                  <div class="item"><"><img id="tmp_img" class="lazy-carousel"
+                    alt="迪拜奢华酒店套餐"
+                    src="aaa/33.jpg"
+                    style="width: 100%;"/></a></div>
+
+                    <div class="item"><a><img id="tmp_img" class="lazy-carousel"
+                      alt="感恩父母,美国自然国家公园定制旅游"
+                      src="aaa/44.jpg"
+                      style="width: 100%;"/></a></div>
+
+                      <div class="item"><a href=""><img id="tmp_img" class="lazy-carousel"
+                        alt="甲米蜜月游"
+                        src="aaa/66.jpg"
+                        style="width: 100%;"/></a></div>
+
+                        <div class="item"><a href=""><img id="tmp_img" class="lazy-carousel"
+                          alt="新加坡亲子游"
+                          src="aaa/77.jpg"
+                          style="width: 100%;"/></a></div>
+
+                          <div class="item"><a href="http://www.imyway.cn/hotel/000612.html"><img id="tmp_img" class="lazy-carousel"
+                            alt="科莫雅姆定制旅游度假村"
+                            src="aaa/88.jpg"
+                            style="width: 100%;"/></a></div>
+
+                            <div class="item"><a href="http://www.imyway.cn/hotel/000771.html"><img id="tmp_img" class="lazy-carousel"
+                              alt="马尔代夫蜜月游"
+                              src="aaa/99.jpg"
+                              style="width: 100%;"/></a></div>
+
+                            </div>
+                            <!-- 轮播（Carousel）导航 -->
+                            <a class="slidesjs-navi opacity-hide rel fl left-btn" style="z-index:2" href="#banner_video"
+                            data-slide="prev"></a>
+                            <a class="slidesjs-navi slidesjs-n opacity-hide rel fr right-btn" style="z-index:2" href="#banner_video"
+                            data-slide="next"></a>
+                            <div class="banner-foot">
+                              <div class="counter-bar content">
+                                <div class="row">
+                                  <div class="col-md-3 col-sm-3 col-xs-3 counter-content nav-center" style="width: 25%">
+                                    <ul class="nav-ul">
+                                      <li class="sub-menu" style="float: none;padding: 0;height: 100px;margin-top: -16px;padding-top: 16px;">
+                                        <div style="padding-top: 7px height:;" class="counter" catid="1">83</div>
+                                        <div style="line-height: 24px;" class="content-text">海外目的地</div>
+                                        <ul class="sub-menu-rightborder" style="top: -316px;left: 136px;background-color: rgba(0, 0, 0, 0.53);">
+
+                                          <li><a href="javascript:void(0);" id="1">亚洲</a>
+                                            <ul class="third-menu" style="background-color: rgba(0, 0, 0, 0.53);">
+                                              <li>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(33)">阿联酋</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(12)">中国</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(27)">印度尼西亚</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(11)">日本</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(29)">马来西亚</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(37)">马尔代夫</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(49)">新加坡</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(8)">泰国</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(124)">不丹</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(114)">柬埔寨</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(91)">香港</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(160)">印度</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(50)">韩国</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(156)">斯里兰卡</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(90)">台湾</a>
+                                                </div>
+
+                                                <div><a href=""
+                                                  onclick="gotolist(81)">越南</a>
+                                                </div>
+
+                                              </li>
+                                            </ul>
+
+                                            <li><a href="javascript:void(0);" id="41">欧洲</a>
+                                              <ul class="third-menu" style="background-color: rgba(0, 0, 0, 0.53);">
+                                                <li>
+
+                                                  <div><a href=""
+                                                    onclick="gotolist(179)">芬兰</a>
+                                                  </div>
+
+                                                  <div><a href=""
+                                                    onclick="gotolist(154)">意大利</a>
+                                                  </div>
+
+                                                  <div><a href=""
+                                                    onclick="gotolist(151)">摩纳哥</a>
+                                                  </div>
+
+                                                  <div><a href=""
+                                                    onclick="gotolist(145)">西班牙</a>
+                                                  </div>
+
+                                                  <div><a href=""
+                                                    onclick="gotolist(106)">瑞士</a>
+                                                  </div>
+
+                                                  <div><a href=""
+                                                    onclick="gotolist(176)">捷克</a>
+                                                  </div>
+
+                                                  <div><a href=""
+                                                    onclick="gotolist(185)">德国</a>
+                                                  </div>
+
+                                                  <div><a href=""
+                                                    onclick="gotolist(105)">法国</a>
+                                                  </div>
+
+                                                  <div><a href=""
+                                                    onclick="gotolist(119)">希腊</a>
+                                                  </div>
+
+                                                  <div><a href=""
+                                                    onclick="gotolist(99)">英国</a>
+                                                  </div>
+
+                                                </li>
+                                              </ul>
+
+                                              <li><a href="javascript:void(0);" id="21">非洲</a>
+                                                <ul class="third-menu" style="background-color: rgba(0, 0, 0, 0.53);">
+                                                  <li>
+
+                                                    <div><a href=""
+                                                      onclick="gotolist(128)">肯尼亚</a>
+                                                    </div>
+
+                                                    <div><a href=""
+                                                      onclick="gotolist(162)">马达加斯加</a>
+                                                    </div>
+
+                                                    <div><a href=""
+                                                      onclick="gotolist(39)">毛里求斯</a>
+                                                    </div>
+
+                                                    <div><a href=""
+                                                      onclick="gotolist(44)">塞舌尔</a>
+                                                    </div>
+
+                                                  </li>
+                                                </ul>
+
+                                                <li><a href="javascript:void(0);" id="14">北美洲</a>
+                                                  <ul class="third-menu" style="background-color: rgba(0, 0, 0, 0.53);">
+                                                    <li>
+
+                                                      <div><a href=""
+                                                        onclick="gotolist(130)">加拿大</a>
+                                                      </div>
+
+                                                      <div><a href=""
+                                                        onclick="gotolist(92)">美国</a>
+                                                      </div>
+
+                                                    </li>
+                                                  </ul>
+
+                                                  <li><a href="javascript:void(0);" id="40">大洋洲</a>
+                                                    <ul class="third-menu" style="background-color: rgba(0, 0, 0, 0.53);">
+                                                      <li>
+
+                                                        <div><a href=""
+                                                          onclick="gotolist(52)">澳大利亚</a>
+                                                        </div>
+
+                                                        <div><a href=""
+                                                          onclick="gotolist(42)">斐济</a>
+                                                        </div>
+
+                                                        <div><a href=""
+                                                          onclick="gotolist(111)">新西兰</a>
+                                                        </div>
+
+                                                        <div><a href=""
+                                                          onclick="gotolist(43)">大溪地</a>
+                                                        </div>
+
+                                                      </li>
+                                                    </ul>
+
+                                                    <li><a href="javascript:void(0);" id="15">南美洲</a>
+                                                      <ul class="third-menu" style="background-color: rgba(0, 0, 0, 0.53);">
+                                                        <li>
+
+                                                        </li>
+                                                      </ul>
+
+                                                      <li>
+                                                        <a href="javascript:void(0);">海岛</a>
+                                                        <ul class="third-menu">
+                                                          <li>
+                                                            <div><a href="" onclick="searchProduct('普吉岛')">普吉岛</a></div>
+                                                            <div><a href="" onclick="searchProduct('苏梅岛')">苏梅岛</a></div>
+                                                            <div><a href="" onclick="searchProduct('巴厘岛')">巴厘岛</a></div>
+                                                            <div><a href="" onclick="searchProduct('塞班')">塞班</a></div>
+                                                            <div><a href="" onclick="searchProduct('济州岛')">济州岛</a></div>
+                                                            <div><a href="" onclick="searchProduct('马尔代夫')">马尔代夫</a></div>
+                                                            <div><a href="" onclick="searchProduct('斯里兰卡')">斯里兰卡</a></div>
+                                                            <div><a href="" onclick="searchProduct('芽庄')">芽庄</a></div>
+                                                            <div><a href="" onclick="searchProduct('岘港')">岘港</a></div>
+                                                            <div><a href="" onclick="searchProduct('长滩')">长滩</a></div>
+                                                            <div><a href="" onclick="searchProduct('毛里求斯')">毛里求斯</a></div>
+                                                            <div><a href="" onclick="searchProduct('大溪地')">大溪地</a></div>
+                                                            <div><a href="" onclick="searchProduct('斐济')">斐济</a></div>
+                                                            <div><a href="" onclick="searchProduct('塞舌尔')">塞舌尔</a></div>
+                                                            <div><a href="" onclick="searchProduct('留尼汪')">留尼汪</a></div>
+                                                            <div><a href="" onclick="searchProduct('夏威夷')">夏威夷</a></div>
+                                                          </li>
+                                                        </ul>
+                                                      </li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                              <div class="col-md-3 col-sm-3 col-xs-3 counter-content">
+                                                <div class="counter" >397</div>
+                                                <div class="content-text">酒店别墅</div>
+                                              </div>
+                                              <div class="col-md-3 col-sm-3 col-xs-3 counter-content">
+                                                <div class="counter" >153</div>
+                                                <div class="content-text">专属定制行程</div>
+                                              </div>
+                                              <div class="col-md-3 col-sm-3 col-xs-3 counter-content">
+                                                <div class="counter" catid="2">7143</div>
+                                                <div class="content-text">服务出行人次</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="clr"></div>
+                                      <script type="text/javascript">
+                                        $(function () {
+                                          var windowHeight = getWindowHeight()
+                                          $("#banner").height(windowHeight);
+                                          $(".banner-inner").css('top', windowHeight / 2 - $(".banner-inner .desc>div").height() / 2 - 20);
+                                          window.onresize = function () {
+                                            $("#banner").height(getWindowHeight());
+                                            $(".banner-inner").css('top', getWindowHeight() / 2 - $(".banner-inner .desc>div").height() / 2 - 20);
+                                          };
+                                        })
+
+
+                                        function setBanner() {
+                                          var navTop = -($("#banner_video>.carousel-inner").height() / 2 + 25);
+                                          //navTop+=118;
+                                          $(".slidesjs-navi").css("top", navTop + "px");
+                                        }
+
+                                        $(function () {
+                                          $('#banner_video').carousel({interval: 3000});
+                                          //set next/pre hover
+                                          $(".carousel-inner,.slidesjs-navi,.my-indicators").hover(
+                                          function () {
+                                            $(".slidesjs-navi").removeClass("opacity-hide").addClass("opacity-harf-show");
+                                          },
+                                          function () {
+                                            $(".slidesjs-navi").removeClass("opacity-harf-show").addClass("opacity-hide");
+                                          }
+                                          );
+
+                                        });
+
+                                        //轮播图懒加载
+                                        function lazyContainer(searchNode) {
+                                          $(searchNode).find(".active").find("img.lazy-carousel").each(function () {
+
+                                            var imgSrc = $(this).attr("data-original");
+                                            if (imgSrc) {
+                                              $(this).attr("src", imgSrc);
+                                            }
+                                          });
+                                        }
+                                        $("#banner_video").bind("slid.bs.carousel", function () {
+                                          lazyContainer(this);
+                                        });
+                                        lazyContainer("#banner_video");
+                                      </script>
+
+
+                                    </div>
+                                  </section>
+                                  <!-- ===End video -->
+                                  <!-- ===counter-bar -->
+                                  <!-- ===End counter-bar -->
+                                  <!-- ===theme -->
+                                  <div id="imyway_theme"></div>
+
+                                  <section class="section">
+                                    <div class="item-title">
+
+                                    </div>
+
+                                  </div>
+
+                                </section>
+
+                                <section class="section">
+                                  <div class="item-title">
+                                    <h1>亲子游乐</h1>
+                                    <h2>亲近自然 探索世界 全心陪伴 共同成长</h2>
+                                  </div>
+                                  <div class="theme2 content">
+
+                                    <div class="left-content">
+
+                                      <div class="theme-shadow">
+
+                                        <div id="tp_19_0" class="c_19 product-pannel" >
+                                          <div class="theme-title">
+
+                                            旅游 | 考察学校＋寻找房源
+
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                    </div>
+                                    <div class="slides" id="theme2">
+
+
+                                      <a href="javascript:void(0);"
+                                      onclick="toProductDetail('001076',0)"
+                                      style="width: 100%; height: 100%;"><img class="lazy"
+                                      data-original="bbb/22.jpg"
+                                      style="width: 100%; height: 100%;"></a>
+
+
+                                      <a href="javascript:void(0);"
+                                      onclick="toProductDetail('001046',0)"
+                                      style="width: 100%; height: 100%;"><img class="lazy"
+                                      data-original="bbb/44.jpg"
+                                      style="width: 100%; height: 100%;"></a>
+
+
+                                      <a href="javascript:void(0);"
+                                      onclick="toProductDetail('000989',0)"
+                                      style="width: 100%; height: 100%;"><img class="lazy"
+                                      data-original="bbb/33.jpg"
+                                      style="width: 100%; height: 100%;"></a>
+
+
+                                      <a href="javascript:void(0);"
+                                      onclick="toProductDetail('000845',0)"
+                                      style="width: 100%; height: 100%;"><img class="lazy"
+                                      data-original="bbb/11.jpg"
+                                      style="width: 100%; height: 100%;"></a>
+
+                                    </div>
+
+                                  </div>
+
+                                </div>
+
+                              </section>
+
+
+
+                              <section class="section">
+                                <div class="item-title">
+                                  <h1>定制婚拍</h1>
+                                  <h2>甜蜜私享 执子之手 与子婚拍 幸福启航</h2>
+                                </div>
+
+
+                                <div class="theme3 content">
+                                  <div class="left-content">
+                                    <div class="theme-shadow">
+                                      <div id="tp_19_0" class="c_19 product-pannel" >
+                                        <div class="theme-title">
+                                          婚拍 | 私人订制+旅行
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="slides" id="theme3">
+                                  <a href="javascript:void(0);"
+                                  onclick="toProductDetail('000661',0)"
+                                  style="width: 100%; height: 100%;"><img class="lazy"
+                                  data-original="ccc/11.jpg"
+                                  alt="斐济蜜月游"
+                                  style="width: 100%; height: 100%;"></a>
+
+                                  <a href="javascript:void(0);"
+                                  onclick="toProductDetail('000967',1)"
+                                  style="width: 100%; height: 100%;"><img class="lazy"
+                                  data-original="ccc/22.jpg"
+                                  alt="马尔代夫尼亚玛岛蜜月游"
+                                  style="width: 100%; height: 100%;"></a>
+
+                                  <a href="javascript:void(0);"
+                                  onclick="toProductDetail('000691',1)"
+                                  style="width: 100%; height: 100%;"><img class="lazy"
+                                  data-original="ccc/33.jpg"
+                                  alt="泰国沽岛蜜月游"
+                                  style="width: 100%; height: 100%;"></a>
+
+                                  <a href="javascript:void(0);"
+                                  onclick="toProductDetail('001051',1)"
+                                  style="width: 100%; height: 100%;"><img class="lazy"
+                                  data-original="ccc/44.jpg"
+                                  alt="泰国普吉岛蜜月游"
+                                  style="width: 100%; height: 100%;"></a>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                        </div>
+                      </div>
+                    </section>
+                    <script type="text/javascript">
+                    function resizeshadow() {
+                      var height = $(".slidesjs-container").eq(0).css("height");
+                      $(".theme-shadow").css("height", height);
+                      $(".slides").css("height", height);
+                      $(".slidesjs-control").css("height", height);
+                    }
+                    </script>
+                    <!-- ===End theme -->
+                    <!-- ===End More theme -->
+                    <!-- ===End Target -->
+                    <!-- ===End vedio -->
+                    <section class="section">
+                      <div class="photo-card-background">
+                        <div class="photo-card-title">世<span style="font-size: 35px;">界</span>那么大，不妨<span
+                          style="font-size: 35px;">去看看</span></div>
+                          <div class="photo-card-container">
+
+                            <a class="photo-card-box" href="">
+                              <div class="photo-card flip-hover">
+                                <div class="front">
+                                  <!-- 前面内容 -->
+                                  <img src="http://www.imyway.cn/images/photo-card/taiwan.png" alt="转角遇到爱的台湾小众游"/>
+                                </div>
+                                <div class="back">
+                                  <!-- 背面内容 -->
+                                  <div class="photo-card-desc">
+                                    <div class="photo-desc-head">台湾</div>
+                                    <div class="photo-desc-body">转角遇见爱</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+
+                            <a class="photo-card-box" href=" ">
+                              <div class="photo-card ">
+                                <div class="front">
+                                  <!-- 前面内容 -->
+                                  <img src="http://www.imyway.cn/images/photo-card/maerdaifu.png" alt="马尔代夫亲子游"/>
+                                </div>
+                                <div class="back">
+                                  <!-- 背面内容 -->
+                                  <div class="photo-card-desc">
+                                    <div class="photo-desc-head">马尔代夫</div>
+                                    <div class="photo-desc-body">世界最大珊瑚岛国</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+
+                            <a class="photo-card-box" href="">
+                              <div class="photo-card flip-hover">
+                                <div class="front">
+                                  <!-- 前面内容 -->
+                                  <img src="http://www.imyway.cn/images/photo-card/xinjiapo.png" alt="吃遍东南亚美食的新加坡出境游"/>
+                                </div>
+                                <div class="back">
+                                  <!-- 背面内容 -->
+                                  <div class="photo-card-desc">
+                                    <div class="photo-desc-head">新加坡</div>
+                                    <div class="photo-desc-body">吃遍东南亚美食</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+
+                            <a class="photo-card-box" href=" ">
+                              <div class="photo-card ">
+                                <div class="front">
+                                  <!-- 前面内容 -->
+                                  <img src="http://www.imyway.cn/images/photo-card/malaixiya.png" alt="马来西亚的私人定制旅游"/>
+                                </div>
+                                <div class="back">
+                                  <!-- 背面内容 -->
+                                  <div class="photo-card-desc">
+                                    <div class="photo-desc-head">马来西亚</div>
+                                    <div class="photo-desc-body">纯粹的花园国度</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="photo-card-container">
+
+                          <a class="photo-card-box" href="">
+                            <div class="photo-card ">
+                              <div class="front">
+                                <!-- 前面内容 -->
+                                <img src="http://www.imyway.cn/images/photo-card/budan.png" alt="世界幸福指数最高之地的不丹亲子游"/>
+                              </div>
+                              <div class="back">
+                                <!-- 背面内容 -->
+                                <div class="photo-card-desc">
+                                  <div class="photo-desc-head">不丹</div>
+                                  <div class="photo-desc-body">世界幸福指数最高之地</div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+
+                          <a class="photo-card-box" href="">
+                            <div class="photo-card flip-hover">
+                              <div class="front">
+                                <!-- 前面内容 -->
+                                <img src="http://www.imyway.cn/images/photo-card/xinxilan.png" alt="大洋洲最美过度之一的新西兰高端别墅度假游"/>
+                              </div>
+                              <div class="back">
+                                <!-- 背面内容 -->
+                                <div class="photo-card-desc">
+                                  <div class="photo-desc-head">新西兰</div>
+                                  <div class="photo-desc-body">大洋洲最美国度之一</div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+
+                          <a class="photo-card-box" href="">
+                            <div class="photo-card ">
+                              <div class="front">
+                                <!-- 前面内容 -->
+                                <img src="http://www.imyway.cn/images/photo-card/sililanka.png" alt="斯里兰卡蜜月游"/>
+                              </div>
+                              <div class="back">
+                                <!-- 背面内容 -->
+                                <div class="photo-card-desc">
+                                  <div class="photo-desc-head">斯里兰卡</div>
+                                  <div class="photo-desc-body">印度洋上的珍珠</div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+
+                          <a class="photo-card-box" href="">
+                            <div class="photo-card flip-hover">
+                              <div class="front">
+                                <!-- 前面内容 -->
+                                <img src="http://www.imyway.cn/images/photo-card/daxidi.png" alt="大溪地私人订制高端别墅度假"/>
+                              </div>
+                              <div class="back">
+                                <!-- 背面内容 -->
+                                <div class="photo-card-desc">
+                                  <div class="photo-desc-head">大溪地</div>
+                                  <div class="photo-desc-body">最接近天堂的地方</div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+
+                          <!--  -->
+                        </div>
+                      </section>
+                      <script type="text/javascript">
+                      $('.photo-card-box').hover(function () {
+                        //alert("hover");
+                        if ($(this).find('.photo-card').hasClass('flip-hover')) {
+                          $(this).find('.photo-card').removeClass('flip-hover');
+                        } else {
+                          $(this).find('.photo-card').addClass('flip-hover');
+                        }
+                      });
+                      function phtotCardHeightResize() {
+                        $(".photo-card-container").height($(".photo-card-container").width() / 7);
+                      }
+                      jQuery(document).ready(phtotCardHeightResize());
+                      </script>
+
+                      <!-- ===More vedio -->
+                      <div class="more_vedio cat" catid="2">
+                        <h2>“在路上”视频<a name="imyway_vedio">&nbsp;</a></h2>
+                        <p>大白车队旅行覆盖多个国家和地区</p>
+
+                        <div class="row vedio_imgs" style="padding-top: 30px;padding-bottom: 20px;">
+
+                          <div class="col-md-3 col-sm-3 col-xs-3">
+                            <!-- <a href="http://www.imyway.cn:80/vedioDetail.html?vid=6"><img style="width: 270px;height: 135px;" class="lazy" -->
+                            alt="伦敦私人订制旅游"
+                            <!-- data-original="http://www.imyway.cn/images/14512711375472.jpg"></a> -->
+                            <div class="t_detail ">
+                              <!-- <a href="http://www.imyway.cn:80/vedioDetail.html?vid=6"><span>&nbsp;&nbsp;&nbsp;日本旅行</span></a> -->
+                              <span class="fr">01:00&nbsp;&nbsp;&nbsp;</span>
+                            </div>
+                          </div>
+
+                          <div class="col-md-3 col-sm-3 col-xs-3">
+                            <!-- <a href="http://www.imyway.cn:80/vedioDetail.html?vid=7"><img style="width: 270px;height: 135px;" class="lazy" -->
+                            alt="苏格兰度假旅行"
+                            <!-- data-original="http://www.imyway.cn/images/14512717743543.jpg"></a> -->
+                            <div class="t_detail ">
+                              <!-- <a href="http://www.imyway.cn:80/vedioDetail.html?vid=7"><span>&nbsp;&nbsp;&nbsp;海岛旅行</span></a> -->
+                              <span class="fr">02:40&nbsp;&nbsp;&nbsp;</span>
+                            </div>
+                          </div>
+
+                          <div class="col-md-3 col-sm-3 col-xs-3">
+                            <!-- <a href="http://www.imyway.cn:80/vedioDetail.html?vid=8"><img style="width: 270px;height: 135px;" class="lazy" -->
+                            alt="浪漫婚拍游"
+                            <!-- data-original="http://www.imyway.cn/images/14512724698924.jpg"></a> -->
+                            <div class="t_detail ">
+                              <!-- <a href="http://www.imyway.cn:80/vedioDetail.html?vid=8"><span>&nbsp;&nbsp;&nbsp;婚礼旅行</span></a> -->
+                              <span class="fr">02:26&nbsp;&nbsp;&nbsp;</span>
+                            </div>
+                          </div>
+
+                          <div class="col-md-3 col-sm-3 col-xs-3">
+                            <!-- <a href="http://www.imyway.cn:80/vedioDetail.html?vid=9"><img style="width: 270px;height: 135px;" class="lazy" -->
+                            alt="大白车队,私人订制旅游"
+                            <!-- data-original="http://www.imyway.cn/images/1451274331689未标题5.jpg"></a> -->
+                            <div class="t_detail ">
+                              <!-- <a href="http://www.imyway.cn:80/vedioDetail.html?vid=9"><span>&nbsp;&nbsp;&nbsp;PEOPLE ARE AWESOME</span></a> -->
+                              <span class="fr">16:54&nbsp;&nbsp;&nbsp;</span>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="new_blog">
+                        <div class="header">大白最新优选</div>
+                        <div class="body">
+
+                          <a href="http://www.imyway.cn/blog/?p=2419">2016定制旅游去韩国玩什么？</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2417">定制旅游价格这么贵的内幕!</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2415">朋友圈个性化旅游路线设计爆棚 你会私人定制吗?</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2413">十一国庆亲子旅游 带着孩子该怎样轻松游?</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2411">海边亲子旅游出行全攻略</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2405">国内平价蜜月旅行地推荐</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2403">蜜月旅行中如何从酒店上来节省费用？</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2401">出境旅游如何兑换外币最省钱?</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2399">出境游，如何刷卡才安心?</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2397">高端旅游市场如何培育？</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2394">女驴友新疆徒步遇难，个性出游的背后，谁能为你的安全买单?</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2392">国庆多去旅行，少去旅游!</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2389">欧洲人和中国人关于为什么旅游度假的看法</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2387">带娃旅行，到底有没有意义?</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2384">中国最黑旅游地!去时腰缠万贯，回来一条底裤!</a>
+
+                          <a href="http://www.imyway.cn/blog/?p=2382">世界上最危险的旅行体验，你敢尝试吗?　</a>
+
+                        </div>
+                      </div>
+
+                      <!-- Page level JS -->
+                      <script type="text/javascript" src="http://www.imyway.cn:80/assets/plugins/counter/waypoints.min.js"></script>
+                      <script type="text/javascript" src="http://www.imyway.cn:80/assets/plugins/counter/jquery.counterup.min.js"></script>
+                      <script type="text/javascript" src="http://www.imyway.cn:80/assets/plugins/slidesJS/jquery.slides.min.js"></script>
+                      <script type="text/javascript" src="http://www.imyway.cn:80/assets/js/jquery.lazyload.min.js"></script>
+                      <script type="text/javascript" src="http://www.imyway.cn:80/assets/js/home.js"></script>
+                      <script type="text/javascript" src="http://www.imyway.cn:80/assets/plugins/videoJs/video.js"></script>
+                      <script type="text/javascript" src="http://www.imyway.cn:80/assets/plugins/scrollBar/jquery.mCustomScrollbar.min.js"></script>
+
+
+                      <script type="text/javascript">
+                      videojs.options.flash.swf = "http://www.imyway.cn:80/assets/tmp/video-js.swf";
+                      var videoH = 1080;
+                      var videoW = 1920;
+                      var hasVideo = !!(document.createElement('video').canPlayType);
+                      var cityParentId = 1;
+
+                      function setVideo() {
+                        if (!hasVideo) {
+                          return;
+                        }
+                        var addtin = 0;
+                        addtin += document.body.scrollHeight - document.body.offsetHeight;
+
+                        if ($(document).width() < 1920) {
+                          $('#banner_video').height(getWindowHeight());
+                        } else {
+                          $('#banner_video').height(getWindowHeight());
+                        }
+
+                        var topTitle = ($('#banner_video').height() + 110) / 3;
+                        var topSearch = ($('#banner_video').height() + 110) - 100;
+
+                        $("#b_title").css("top", (topTitle - 130) + "px");
+                        $("#banner-bar").css("top", (topSearch - 220) + "px");
+
+                        var bannerVideoHeight = $("#banner_video").height();
+                        bannerVideoHeight -= 230;
+                        $("#banner_video,#tmp_img").css({"height": "100%"});
+
+                        setBanner();
+                      }
+
+                      var resizFlg = false;
+
+                      function initPage() {
+                        try {
+                          $window = $(window);
+                          var resize = $window.jqElemResize();
+                          $(resize).on("resize", function (size) {
+
+                            setThemeTopHeight();
+                            setVideo();
+
+                            setBanner();
+                            resizeshadow();
+                            phtotCardHeightResize();
+                          });
+                        } catch (exp) {
+                          alert(exp.message);
+                        }
+                      }
+                      /*页面卸载时*/
+                      $(window).unload(function () {
+                        try {
+                          $(window).jqElemResize("destroy");
+                        } catch (exp) {
+                          alert(exp.message);
+                        }
+                      });
+
+                      function getcity(parentId, flg) {
+                        if (flg) {
+                          $.ajax({
+                            type: "POST",
+                            url: "http://www.imyway.cn:80/city/ajaxGetCityListAll.html",
+                            async: false,
+                            dataType: "html",
+                            success: function (json) {
+                              var result = jQuery.parseJSON(json);
+                              var rows = result.rows;
+                              var cityFrom = $("#b_search_data");
+                              cityFrom.empty();
+                              var html = '<table>';
+                              $(rows).each(function (index) {
+                                if (index % 5 == 0) {
+                                  html += '<tr>';
+                                }
+                                html +=
+                                '<td>' +
+                                '	<p class="p1"><a href="javascript:void(0)" onclick="cityselect(' + rows[index].id + ',\'' + rows[index].cityName + '\')"  >' + rows[index].cityName + '</a></p>' +
+                                '	<p class="p2"><a href="javascript:void(0)">' + rows[index].cityNameEn + '</a></p>' +
+                                '</td>';
+                                if (index % 5 == 4) {
+                                  html += '</tr>';
+                                }
+
+                              });
+                              html += '</table>';
+                              cityFrom.append(html);
+                            }
+                          });
+                        } else {
+                          $.ajax({
+                            type: "POST",
+                            url: "http://www.imyway.cn:80/city/ajaxGetCityList.html",
+                            data: {'parentId': parentId},
+                            async: false,
+                            dataType: "html",
+                            success: function (json) {
+                              var result = jQuery.parseJSON(json);
+                              var rows = result.rows;
+                              var cityFrom = $("#b_search_data");
+                              cityFrom.empty();
+                              var html = '<table>';
+                              $(rows).each(function (index) {
+                                if (index % 5 == 0) {
+                                  html += '<tr>';
+                                }
+                                html += '<td>' +
+                                '	<p class="p1"><a href="javascript:void(0)" onclick="cityselect(' + rows[index].id + ',\'' + rows[index].cityName + '\')"  >' + rows[index].cityName + '</a></p>' +
+                                '	<p class="p2"><a href="javascript:void(0)">' + rows[index].cityNameEn + '</a></p>' +
+                                '</td>';
+                                if (index % 5 == 4) {
+                                  html += '</tr>';
+                                }
+
+                              });
+                              html += '</table>';
+                              cityFrom.append(html);
+                            }
+                          });
+                        }
+                      }
+
+                      function getDateList() {
+                        var nowDate = new Date(1475914723745);
+                        var month = nowDate.getMonth() + 1;
+                        var year = nowDate.getFullYear();
+                        var rows = new Array();
+                        var nextYearFlg = false;
+                        for (var i = 0; i < 12; i++) {
+                          if (month > 12) {
+                            month = 1;
+                            nextYearFlg = true;
+                          }
+                          if (nextYearFlg) {
+                            year += 1;
+                            nextYearFlg = false;
+                          }
+                          rows[i] = {
+                            dateFull: year + "年" + (month < 10 ? "0" + month : month) + "月",
+                            dateShort: year + "-" + (month < 10 ? "0" + month : month)
+                          };
+
+                          month++;
+                        }
+
+                        var cityFrom = $("#b_search_data");
+                        cityFrom.empty();
+                        var html = '<table>';
+                        $(rows).each(function (index) {
+                          if (index % 5 == 0) {
+                            html += '<tr>';
+                          }
+                          html +=
+                          '<td>' +
+                          '	<p class="p1"><a href="javascript:void(0)" onclick="cityselect( \'' + rows[index].dateShort + '\' ,\'' + rows[index].dateFull + '\')"  >' + rows[index].dateFull + '</a></p>' +
+                          '</td>';
+                          if (index % 5 == 4) {
+                            html += '</tr>';
+                          }
+
+                        });
+                        html += '</table>';
+                        cityFrom.append(html);
+                      }
+
+                      function getTheme() {
+                        $.ajax({
+                          type: "POST",
+                          url: "http://www.imyway.cn:80/themeList.html",
+                          data: {},
+                          async: false,
+                          dataType: "html",
+                          success: function (json) {
+                            var result = jQuery.parseJSON(json);
+                            var rows = result;
+                            var cityFrom = $("#b_search_data");
+                            cityFrom.empty();
+                            var html = '<table>';
+                            $(rows).each(function (index) {
+                              if (index % 5 == 0) {
+                                html += '<tr>';
+                              }
+                              html +=
+                              '<td>' +
+                              '	<p class="p1"><a href="javascript:void(0)" onclick="cityselect(' + rows[index].id + ',\'' + rows[index].name + '\')"  >' + rows[index].name + '</a></p>' +
+                              '	<p class="p2"><a href="javascript:void(0)">' + rows[index].name_en + '</a></p>' +
+                              '</td>';
+                              if (index % 5 == 4) {
+                                html += '</tr>';
+                              }
+
+                            });
+                            html += '</table>';
+                            cityFrom.append(html);
+                          }
+                        });
+                      }
+
+                      function cityselect(cid, cname) {
+                        var iHtml = '<i class="fa fa-caret-up ml" style="color: rgb(83, 155, 255);"></i>';
+                        var searchTipClass = $("#b_search_tip").attr("class");
+
+                        if (cid != $("#s_country_put").val()) {
+                          if (searchTipClass == "s_country") {
+                            $("#s_city_put").val('')
+                            $("#s_city").find('font').text('城市');
+                          }
+                        }
+
+                        if ($("#s_country_put").val() == '' || $("#s_country_put").val() == null) {
+                          getcity(cid, true);
+                          cityParentId = cid;
+                        }
+
+                        $("#" + searchTipClass + "_put").val(cid);
+                        $("#" + searchTipClass).children('font').empty().text(cname);
+
+                        //hide search data list
+                        $("#banner-bar>.banner-searchbar>span>.fa-caret-up").removeClass("fa-caret-up").addClass("fa-caret-down")
+                        .css("color", "#ccc").parent().removeClass("active");
+
+                        $("#b_search_tip").animate({top: ($("#banner_video").height() + 70) + 'px', opacity: 0}).removeClass();
+                      }
+                      function getCityList(parentId) {
+                        $(".selectCity").removeClass('active');
+                        var selectCity = $(".selectCity");
+                        $(selectCity).each(function (index) {
+                          if ($(selectCity[index]).attr('id') == parentId) {
+                            $(selectCity[index]).addClass('active');
+                          }
+                        });
+                        getSelectCity(parentId);
+                      }
+                      function getWindowHeight() {
+                        var winHeight = 0;
+                        if (window.innerHeight)
+                        winHeight = window.innerHeight;
+                        else if ((document.body) && (document.body.clientHeight))
+                        winHeight = document.body.clientHeight;
+                        if (document.documentElement && document.documentElement.clientHeight) {
+                          winHeight = document.documentElement.clientHeight;
+                        }
+                        return winHeight;
+                      }
+
+                      jQuery(document).ready(function () {
+
+                        initCounter();
+                        initSlides("slides");
+                        initPage();
+                        setThemeTopHeight();
+                        resizeshadow();
+                        getDestinationAdminSearchList();
+
+                        //装饰器product_decorator,点击州
+                        var continent = '';
+                        if (continent != null && continent != '') {
+                          $(".selectCity").removeClass('active');
+                          var parentId = continent;
+                          var selectCity = $(".selectCity");
+                          $(selectCity).each(function (index) {
+                            if ($(selectCity[index]).attr('id') == parentId) {
+                              $(selectCity[index]).addClass('active');
+                            }
+                          });
+                          getSelectCity(parentId);
+                        } else {
+                          getHotCityList();
+
+                        }
+                        //装饰器decorator,点击州
+                        $(".anchor-continent").click(function () {
+                          $(".selectCity").removeClass('active');
+                          var parentId = $(this).attr('id');
+                          var selectCity = $(".selectCity");
+                          $(selectCity).each(function (index) {
+                            if ($(selectCity[index]).attr('id') == parentId) {
+                              $(selectCity[index]).addClass('active');
+                            }
+                          });
+                          getSelectCity(parentId);
+                        });
+                        //获取点击的州的国家
+                        $(".selectCity").click(function () {
+                          selectCityRemoveClass();
+                          $(this).addClass('active');
+                          var parentId = $(this).attr('id');
+                          getSelectCity(parentId);
+                        });
+                        setVideo();
+                        $("#b_search_tip").css("top", ($("#banner_video").height() + 70) + 'px');
+
+                        //set scroll bar
+                        //	$("#b_search_data").mCustomScrollbar();
+
+                        //获得亚洲国家
+                        getcity(1, true);
+
+                        //set banner search tooltip
+                        $("#banner-bar>.banner-searchbar>span").click(function () {
+                          var selectId = $(this).attr("id");
+                          if (selectId == "s_city") {
+                            if ($("#s_country_put").val() == '') {
+                              alert("请先选择国家");
+                              return false;
+                            } else {
+                              getcity($("#s_country_put").val(), false);
+                              cityParentId = $("#s_country_put").val();
+                            }
+                          } else if (selectId == "s_country") {
+                            if (cityParentId != 1) {
+                              getcity(1, true);
+                              cityParentId = 1;
+                            }
+                          } else if (selectId == "s_theme") {
+                            getTheme();
+                            cityParentId = 0;
+                          } else if (selectId == "s_date") {
+                            getDateList();
+                            cityParentId = 0;
+                          }
+
+                          if ($(this).hasClass("active")) {
+                            $("#banner-bar>.banner-searchbar>span>.fa-caret-up").removeClass("fa-caret-up").addClass("fa-caret-down")
+                            .css("color", "#ccc").parent().removeClass("active");
+
+                            $("#b_search_tip").animate({
+                              top: ($("#banner_video").height() + 70) + 'px',
+                              opacity: 0
+                            }).css("z-index", "1").removeClass();
+
+                          } else {
+                            $("#banner-bar>.banner-searchbar>span>.fa-caret-up").removeClass("fa-caret-up").addClass("fa-caret-down")
+                            .css("color", "#ccc").parent().removeClass("active");
+                            $(this).addClass("active").children('i').removeClass("fa-caret-down").addClass("fa-caret-up").css("color", "#539BFF");
+                            var vh = $("#banner_video").height();
+
+                            $("#b_search_tip").animate({
+                              top: (vh - 228) + 'px',
+                              opacity: 0.90
+                            }).css("z-index", "1000").removeClass().addClass($(this).attr("id"));
+                            $("#b_search_data").mCustomScrollbar("scrollTo", "top");
+                          }
+
+                        });
+
+                        //改变banner分页样式
+
+                        var items = $(".theme1 > .left-content>.slides>.slidesjs-pagination>.slidesjs-pagination-item>a");
+                        for (var i = 0; i < items.length; i++) {
+                          var btnImgHtml = '';
+
+                          if (i == 0) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'000192\',\'2\')" class="lazy"  data-original="http://www.imyway.cn/images/1474624641780thelayar3brpoollights.jpg" style="width:160px;height:90px; " alt="印度尼西亚巴厘岛高端别墅度假" tag="' + i + '">';
+                          }
+
+                          if (i == 1) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'001036\',\'2\')" class="lazy"  data-original="http://www.imyway.cn/images/14682166280891外观.jpg" style="width:160px;height:90px; " alt="泰国莎瓦芮别墅高端度假" tag="' + i + '">';
+                          }
+
+                          if (i == 2) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'001060\',\'2\')" class="lazy"  data-original="http://www.imyway.cn/images/1469600070471外观.png" style="width:160px;height:90px; " alt="泰国海滩高端别墅度假" tag="' + i + '">';
+                          }
+
+                          if (i == 3) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'000210\',\'2\')" class="lazy"  data-original="http://www.imyway.cn/images/14707950833381.png" style="width:160px;height:90px; " alt="泰国苏梅岛高端别墅度假" tag="' + i + '">';
+                          }
+
+                          $(items[i]).attr("data-tpid", "16_" + i).attr("data-themeid", "16").empty().html(btnImgHtml);
+                        }
+
+                        var items = $(".theme2 > .left-content>.slides>.slidesjs-pagination>.slidesjs-pagination-item>a");
+                        for (var i = 0; i < items.length; i++) {
+                          var btnImgHtml = '';
+
+                          if (i == 0) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'001076\',\'0\')" class="lazy"  data-original="http://www.imyway.cn/images/1471921151922147081045074606.jpg" style="width:160px;height:90px; " alt="澳大利亚亲子游" tag="' + i + '">';
+                          }
+
+                          if (i == 1) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'001046\',\'0\')" class="lazy"  data-original="http://www.imyway.cn/images/1471921635750组9.png" style="width:160px;height:90px; " alt="日本大阪亲子游" tag="' + i + '">';
+                          }
+
+                          if (i == 2) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'000989\',\'0\')" class="lazy"  data-original="http://www.imyway.cn/images/1466665230590list.jpg" style="width:160px;height:90px; " alt="台湾主题乐园亲子游" tag="' + i + '">';
+                          }
+
+                          if (i == 3) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'000845\',\'0\')" class="lazy"  data-original="http://www.imyway.cn/images/14634724942068.jpg" style="width:160px;height:90px; " alt="新加坡新山亲子游" tag="' + i + '">';
+                          }
+
+                          $(items[i]).attr("data-tpid", "19_" + i).attr("data-themeid", "19").empty().html(btnImgHtml);
+                        }
+
+                        var items = $(".theme3 > .left-content>.slides>.slidesjs-pagination>.slidesjs-pagination-item>a");
+                        for (var i = 0; i < items.length; i++) {
+                          var btnImgHtml = '';
+
+                          if (i == 0) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'000661\',\'0\')" class="lazy"  data-original="http://www.imyway.cn/images/146183100871800.jpg" style="width:160px;height:90px; " alt="斐济蜜月游" tag="' + i + '">';
+                          }
+
+                          if (i == 1) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'000967\',\'1\')" class="lazy"  data-original="http://www.imyway.cn/images/14725444222467.jpg" style="width:160px;height:90px; " alt="马尔代夫尼亚玛岛蜜月游" tag="' + i + '">';
+                          }
+
+                          if (i == 2) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'000691\',\'1\')" class="lazy"  data-original="http://www.imyway.cn/images/14707967857991.png" style="width:160px;height:90px; " alt="泰国沽岛蜜月游" tag="' + i + '">';
+                          }
+
+                          if (i == 3) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'001051\',\'1\')" class="lazy"  data-original="http://www.imyway.cn/images/1470798282119泳池2.png" style="width:160px;height:90px; " alt="泰国普吉岛蜜月游" tag="' + i + '">';
+                          }
+
+                          $(items[i]).attr("data-tpid", "21_" + i).attr("data-themeid", "21").empty().html(btnImgHtml);
+                        }
+
+                        var items = $(".theme8 > .left-content>.slides>.slidesjs-pagination>.slidesjs-pagination-item>a");
+                        for (var i = 0; i < items.length; i++) {
+                          var btnImgHtml = '';
+
+                          if (i == 0) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'000956\',\'0\')" class="lazy"  data-original="http://www.imyway.cn/images/1466378256771头图.png" style="width:160px;height:90px; " alt="日本东京亲子游" tag="' + i + '">';
+                          }
+
+                          if (i == 1) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'000797\',\'0\')" class="lazy"  data-original="http://www.imyway.cn/images/14745136988962.jpg" style="width:160px;height:90px; " alt="马来西亚私人订制旅游" tag="' + i + '">';
+                          }
+
+                          if (i == 2) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'000781\',\'0\')" class="lazy"  data-original="http://www.imyway.cn/images/146190723168101.jpg" style="width:160px;height:90px; " alt="美国家庭主题定制旅游" tag="' + i + '">';
+                          }
+
+                          if (i == 3) {
+                            btnImgHtml = '<img onclick="toProductDetail(\'001082\',\'0\')" class="lazy"  data-original="http://www.imyway.cn/images/14714902248011.png" style="width:160px;height:90px; " alt="感恩父母,台湾家庭主题定制旅游" tag="' + i + '">';
+                          }
+
+                          $(items[i]).attr("data-tpid", "26_" + i).attr("data-themeid", "26").empty().html(btnImgHtml);
+                        }
+
+                        //set next/pre hover
+                        $(".slidesjs-container,.slidesjs-navigation").hover(
+                          function () {
+                            var parentId = $(this).parent().attr("id");
+                            $("#" + parentId + "_pre,#" + parentId + "_next").removeClass("opacity-hide").addClass("opacity-harf-show");
+                          },
+                          function () {
+                            var parentId = $(this).parent().attr("id");
+                            $("#" + parentId + "_pre,#" + parentId + "_next").removeClass("opacity-harf-show").addClass("opacity-hide");
+                          }
+                        );
+
+                        //search btn click
+                        $("#searchBtn").click(function () {
+                          var url = 'http://www.imyway.cn:80/product/product_list.html?ptype=0&themeId=' + $("#s_theme_put").val() +
+                          '&countryId=' + $("#s_country_put").val() + '&cityId=' + $("#s_city_put").val() + '&endTime=' + $("#s_date_put").val() + '&fromFlag=0';
+                          window.location.href = url;
+                        });
+
+                        $(".counter-content>.counter").click(function () {
+                          var catid = $(this).attr("catid");
+                          if (catid == 1 || catid == 2) {
+                            var top = $(".cat[catid='" + catid + "']").offset().top;
+                            $(window).scrollTop(top);
+                          } else if (catid == 3) {
+                            //villa
+                            window.location.href = 'http://www.imyway.cn:80/product/product_list.html?ptype=2&fromFlag=0';
+                          } else if (catid == 4) {
+                            window.location.href = 'http://www.imyway.cn:80/product/product_list.html?ptype=0&fromFlag=0';
+                          }
+                        });
+
+                      });
+
+                      function getSelectCity(parentId) {
+                        if (parentId != 0) {
+                          $.ajax({
+                            type: "POST",
+                            url: "http://www.imyway.cn:80/city/ajaxGetCityList.html",
+                            data: {'parentId': parentId},
+                            dataType: "html",
+                            success: function (json) {
+                              var result = jQuery.parseJSON(json);
+                              var rows = result.rows;
+                              var cityFrom = $(".content_top");
+                              cityFrom.empty();
+                              $(rows).each(function (index) {
+
+                                if (index % 6 == 0 && index > 5) {
+                                  cityFrom.append('<div class="br">&nbsp;</div>');
+                                }
+                                cityFrom.append(
+                                  '<a href="javascript:void(0);"  onclick="gotolist(' + rows[index].id + ')" >' + rows[index].cityName + '</a>&nbsp;'
+                                );
+
+                              });
+
+                            }
+                          });
+                        } else {
+                          $.ajax({
+                            type: "POST",
+                            url: "http://www.imyway.cn:80/city/ajaxGetHotCityList.html",
+                            dataType: "html",
+                            success: function (json) {
+                              var result = jQuery.parseJSON(json);
+                              var rows = result;
+                              var cityFrom = $(".content_top");
+                              cityFrom.empty();
+                              $(rows).each(function (index) {
+
+                                if (index % 6 == 0 && index > 5) {
+                                  cityFrom.append('<div class="br">&nbsp;</div>');
+                                }
+                                cityFrom.append(
+                                  '<a href="javascript:void(0);"  onclick="gotolist(' + rows[index].id + ')" >' + rows[index].cityName + '</a>&nbsp;'
+                                );
+
+                              });
+
+                            }
+                          });
+                        }
+
+                      }
+
+                      function getHotCityList() {
+                        $.ajax({
+                          type: "POST",
+                          url: "http://www.imyway.cn:80/city/ajaxGetHotCityList.html",
+                          dataType: "html",
+                          success: function (json) {
+                            var result = jQuery.parseJSON(json);
+                            var rows = result;
+                            var cityFrom = $(".content_top");
+                            cityFrom.empty();
+                            $(rows).each(function (index) {
+
+                              if (index % 6 == 0 && index > 5) {
+                                cityFrom.append('<div class="br">&nbsp;</div>');
+                              }
+                              cityFrom.append(
+                                '<a href="javascript:void(0);"  onclick="gotolist(' + rows[index].id + ')" >' + rows[index].cityName + '</a>&nbsp;'
+                              );
+
+                            });
+
+                          }
+                        });
+                      }
+
+                      //目的地
+                      function getDestinationAdminSearchList() {
+                        $.ajax({
+                          type: "POST",
+                          url: "http://www.imyway.cn:80/destination/destinationAdminSearchList.html",
+                          data: {},
+                          dataType: "html",
+                          success: function (json) {
+                            var result = jQuery.parseJSON(json);
+                            var rows = result;
+
+                            var cityFrom = $(".t_content_left");
+                            cityFrom.empty();
+                            $(rows).each(function (index) {
+                              var topval = (rows[index].map_lat / 1 - 480);
+                              var leftval = (rows[index].map_lng / 1);
+                              cityFrom.append(
+                                '<img class="c abs" id="c' + index + '" data-desid="' + rows[index].id + '" data-countryid="' + rows[index].countryId + '" data-cname="' + rows[index].countryName + '" style="left:' + leftval + 'px;top:' + topval + 'px;display:block ; z-index:9;"  src="http://www.imyway.cn:80/assets/img/c1.png" >'
+                              );
+                            });
+                            cityFrom.append('<img alt="" src="http://www.imyway.cn:80/assets/img/map.png" id="map">');
+                            //set map
+                            $(".target>.target-content>div>.t_content_left>.c").hover(
+                              function (event) {
+                                var lisize = setMapContent($(this));
+                                var ccs = $('.target>.target-content>div>.t_content_left>.c');
+                                for (var i = 0; i < ccs.length; i++) {
+                                  if ($(ccs[i]).hasClass('cc')) {
+                                    $(ccs[i]).attr('src', 'http://www.imyway.cn:80/assets/img/c1.png');
+                                  }
+                                }
+                                $(this).attr('src', 'http://www.imyway.cn:80/assets/img/c2.png').addClass("cc");
+                                var scale = lisize * 75 + 45;
+                                var t = event.pageY - scale;
+                                var l = event.pageX;
+                                $("#target-data").css({'top': (t + 10) + 'px', 'left': l + 'px'}).fadeIn(300);
+
+                              }, function () {
+                                $("#target-data").mouseleave(function () {
+                                  var ccs = $('.target>.target-content>div>.t_content_left>.c');
+                                  for (var i = 0; i < ccs.length; i++) {
+                                    if ($(ccs[i]).hasClass('cc')) {
+                                      $(ccs[i]).attr('src', 'http://www.imyway.cn:80/assets/img/c1.png');
+                                    }
+                                  }
+                                  $("#target-data").hide();
+                                });
+                              });
+                            }
+                          });
+                        }
+
+                        function selectCityRemoveClass() {
+                          $(".selectCity").removeClass('active');
+                        }
+                        function setMapContent(jqObj) {
+                          var desId = jqObj.data("desid");
+                          var descityname = jqObj.data("cname");
+                          var countryid = jqObj.data("countryid");
+                          var listSize = 0;
+                          $.ajax({
+                            type: "POST",
+                            url: "http://www.imyway.cn:80/destination/destinationDetail.html",
+                            data: {'desId': desId},
+                            async: false,
+                            dataType: "html",
+                            success: function (json) {
+                              var rows = jQuery.parseJSON(json);
+                              var htmlStr = '';
+                              $(rows).each(function (index) {
+                                var productname = rows[index].pname;
+                                if (productname.length > 11) {
+                                  productname = productname.substring(0, 11) + "...";
+                                }
+                                htmlStr += '<div style="border-bottom: 1px solid #e5e5e5;padding-bottom: 10px;">'
+                                + '<img title="' + rows[index].pname + '" src="' + rows[index].list_img + '" style="display: inline-block;width:80px;height:60px;">'
+                                + '<p  style="display: inline-block;font-size: 12px;color: #333;width: 190px;padding-left: 15px;text-align: left;position:relative ;top:-10px;">'
+                                + '<a onclick="toProductDetail(\'' + rows[index].pid + '\',' + rows[index].ptype + ')" href="javascript:void(0)" title="' + rows[index].pname + '" style="color: #333;">'
+                                + productname + '</a></p>'
+                                + '<p class="fr" style="display: inline-block;font-size: 12px;color: #8f9c9a;margin-top:-15px;'
+                                + 'width: 190px;padding-left: 10px;text-align: left;">' + rows[index].startdate + ' - ' + rows[index].enddate + '</p>'
+                                + '</div><div class="clr"></div>';
+                                listSize++;
+                              });
+                              htmlStr += '<div style="color: #529bff ;text-align: center;height:30px; padding-top: 10px;"><p><a id="target-more" href="javascript:void(0)" onclick="gotolist(' + countryid + ')" style="color: #529bff ;">查看更多' + descityname + '推荐行程</a></p></div>';
+                              $("#target-data").empty().append(htmlStr);
+                            }
+                          });
+                          return listSize;
+                        }
+
+                        function gotoWeb(themeId, flg) {
+                          var url = 'http://www.imyway.cn:80/product/product_list.html?flag=0&ptype=0&themeId=' + themeId + '&fromFlag=0';
+                          if (flg == 1) {
+                            url = 'http://www.imyway.cn:80/product/product_list.html?flag=0&ptype=2&themeId=' + themeId + '&fromFlag=0';
+                          }
+                          window.location.href = url;
+                        }
+
+                        function toProductDetail(pid, ptype) {
+                          var url = "";
+                          if (ptype == 0) {
+                            url = 'http://www.imyway.cn:80/package/' + pid + '.html';
+                          } else if (ptype == 1) {
+                            url = 'http://www.imyway.cn:80/hotel/' + pid + '.html';
+                          } else if (ptype == 2) {
+                            url = 'http://www.imyway.cn:80/villa/' + pid + '.html';
+                          } else if (ptype == 3) {
+                            url = 'http://www.imyway.cn:80/traffic/' + pid + '.html';
+                          } else if (ptype == 4) {
+                            url = 'http://www.imyway.cn:80/ent/' + pid + '.html';
+                          }
+                          window.location.href = url;
+                        }
+                        function gotolist(countryid) {
+                          var url = 'http://www.imyway.cn:80/product/product_list.html?flag=1&ptype=0&countryId=' + countryid + '&fromFlag=0';
+                          window.location.href = url;
